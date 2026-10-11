@@ -198,4 +198,5 @@ Some workflows may require further integration, testing, or production hardening
 
 ## License
 
+This project is not open-source. All rights are reserved. If you would like to use, modify, or build upon this code, you must obtain explicit permission.
 See the repository's `LICENSE` file for licensing terms.
