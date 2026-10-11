@@ -1,36 +1,55 @@
 # Dependencies
+
 node_modules/
 **/node_modules/
 
-# Environment files
+# Environment variables and secrets
+
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+!.env.*.example
 **/.env
-**/.env.local
-**/.env.*.local
-
-# Build output
-vercel-output/
-**/dist/
-
-# Vercel local files
-.vercel/
-**/.vercel/
+**/.env.*
+!**/.env.example
+!**/.env.*.example
 
 # Expo
+
 .expo/
 **/.expo/
 
+# Build outputs
+
+dist/
+build/
+web-build/
+coverage/
+
 # Logs
+
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# OS files
+# TypeScript
+
+*.tsbuildinfo
+
+# Editors and IDEs
+
+.vscode/
+.idea/
+.claude/
+
+# Operating system files
+
 .DS_Store
 Thumbs.db
+Desktop.ini
 
+# Temporary files
 
-.vercel
-.env*
+*.tmp
+*.bak
+*.swp
